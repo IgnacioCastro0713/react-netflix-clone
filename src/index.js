@@ -1,12 +1,13 @@
 import React from 'react';
 import { render } from 'react-dom';
-import App from './App';
-import { GlobalStyles } from "./global-styles";
+import 'normalize.css';
+import AppNetflix from './AppNetflix';
+import { GlobalStyles } from './global-styles';
 
 render(
   <>
-    <GlobalStyles></GlobalStyles>
-    <App/>
+    <GlobalStyles/>
+    <AppNetflix/>
   </>,
   document.getElementById('root')
 );

@@ -1,5 +1,6 @@
 import styled from 'styled-components/macro';
 
+
 export const Item = styled.div`
   display: flex;
   border-bottom: 8px solid #222;
@@ -19,7 +20,8 @@ export const Container = styled.div`
 export const Inner = styled.div`
   display: flex;
   align-items: center;
-  justify-content: ${ ({ direction }) => direction };
+  justify-content: space-between;
+  flex-direction: ${ ({ direction }) => direction };
   max-width: 1100px;
   margin: auto;
   width: 100%;
